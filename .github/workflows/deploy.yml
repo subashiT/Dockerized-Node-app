@@ -3,8 +3,7 @@ name: CI/CD for Node.js App
 on:
   push:
     branches:
-      - main
-
+      - Master
 jobs:
   build:
     runs-on: ubuntu-latest
