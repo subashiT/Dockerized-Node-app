@@ -31,5 +31,5 @@ jobs:
 
     - name: Push Docker image to DockerHub
       run: |
-        docker tag mynodeapp yourdockerhubusername/mynodeapp:latest
-        docker push yourdockerhubusername/mynodeapp:latest
+        docker tag mynodeapp subashiwithanage/mynodeapp:latest
+        docker push subashiwithanage/mynodeapp:latest
